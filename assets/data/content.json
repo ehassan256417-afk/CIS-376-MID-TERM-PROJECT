@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "HTML Basics",
+    "category": "frontend",
+    "rating": 4,
+    "description": "Learn the structure of web pages using HTML.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+  },
+  {
+    "id": 2,
+    "title": "CSS Layout",
+    "category": "frontend",
+    "rating": 5,
+    "description": "Responsive design using Flexbox and Grid.",
+    "link": "https://developer.mozilla.org/en-US/docs/Learn/CSS"
+  },
+  {
+    "id": 3,
+    "title": "JavaScript DOM",
+    "category": "javascript",
+    "rating": 5,
+    "description": "Manipulate page elements dynamically.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model"
+  },
+  {
+    "id": 4,
+    "title": "Session Storage",
+    "category": "javascript",
+    "rating": 3,
+    "description": "Store temporary data in the browser.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage"
+  },
+  {
+    "id": 5,
+    "title": "Bootstrap Grid",
+    "category": "frontend",
+    "rating": 4,
+    "description": "Build layouts quickly using Bootstrap grid.",
+    "link": "https://getbootstrap.com/docs/5.3/layout/grid/"
+  }
+]
