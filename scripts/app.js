@@ -100,8 +100,7 @@ syncViewButtons();
           <p class="card-text text-muted">Category: ${item.category}</p>
           <p class="card-text">Rating: ${item.rating}</p>
           <p class="card-text">${item.description}</p>
-          <a class="btn btn-sm btn-outline-primary" href="${item.link}" target="_blank">Open Link</a>
-        </div>
+          <a class="btn btn-sm btn-outline-primary" href="${item.link}" target="_blank" rel="noopener">Open Link</a>
       </div>
     `;
 
