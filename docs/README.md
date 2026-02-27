@@ -7,10 +7,10 @@ This front-end web application helps users log in and browse curated resources u
 As a user, I want to log in, then search, filter by category, and sort items so I can quickly find the resource I need.
 
 ## Links
-- Repository: REPLACE_ME_REPO_LINK
-- Deployed App (GitHub Pages): REPLACE_ME_PAGES_LINK
+- Repository: https://github.com/ehassan256417-afk/CIS-376-MID-TERM-PROJECT
+- Deployed App (GitHub Pages): https://ehassan256417-afk.github.io/CIS-376-MID-TERM-PROJECT/
 - Design Ideas (Wiki): https://github.com/ehassan256417-afk/CIS-376-MID-TERM-PROJECT/wiki
-- GitHub Profile: REPLACE_ME_PROFILE_LINK
+- GitHub Profile: https://github.com/ehassan256417-afk
 
 ## How to Use
 1. Open the app and go to **Login**.

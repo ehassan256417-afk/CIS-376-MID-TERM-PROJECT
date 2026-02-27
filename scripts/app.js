@@ -60,7 +60,7 @@ listViewBtn.addEventListener("click", () => {
 // run once at start
 syncViewButtons();
     
-  // ✅ Dynamic categories from JSON
+  //  Dynamic categories from JSON
   function buildCategories() {
     const categories = Array.from(new Set(data.map(item => item.category))).sort();
 
@@ -94,15 +94,21 @@ syncViewButtons();
     }
 
     col.innerHTML = `
-      <div class="card h-100">
-        <div class="card-body">
-          <h5 class="card-title">${item.title}</h5>
-          <p class="card-text text-muted">Category: ${item.category}</p>
-          <p class="card-text">Rating: ${item.rating}</p>
-          <p class="card-text">${item.description}</p>
-          <a class="btn btn-sm btn-outline-primary" href="${item.link}" target="_blank" rel="noopener">Open Link</a>
-      </div>
-    `;
+  <div class="card h-100">
+    <div class="card-body">
+      <h5 class="card-title">${item.title}</h5>
+      <p class="card-text text-muted">Category: ${item.category}</p>
+      <p class="card-text">Rating: ${item.rating}</p>
+      <p class="card-text">${item.description}</p>
+      <a class="btn btn-sm btn-outline-primary" 
+         href="${item.link}" 
+         target="_blank" 
+         rel="noopener">
+         Open Link
+      </a>
+    </div>
+  </div>
+`;
 
     grid.appendChild(col);
   });
@@ -112,7 +118,7 @@ syncViewButtons();
   function applyAll() {
     const searchText = searchInput.value.trim().toLowerCase();
     const category = categoryFilter.value;
-        // ✅ Save filter choice (bonus)
+        //  Save filter choice (bonus)
     sessionStorage.setItem("categoryFilter", category);
     const sortValue = sortSelect.value;
 
