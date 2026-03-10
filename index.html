@@ -15,39 +15,47 @@
   <!-- Bootstrap icons (optional icons) -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
-  <!-- Your custom CSS -->
+  <!-- my custom CSS -->
   <link rel="stylesheet" href="styles/main.css" />
 </head>
 
 <body>
 
-  <!-- ===== NAVBAR (Top Navigation Bar) ===== -->
+  <!-- ===== NAVBAR (Top Navigation Bar) ===== --> 
+   <!-- The navbar is a responsive navigation bar that includes the website logo/name, navigation links, and buttons for opening the app and logging in. It uses Bootstrap's navbar component for styling and responsiveness. The "Social" dropdown contains a link to the GitHub repository for the project, allowing users to easily access the source code and contribute if they wish. The navbar is designed to provide easy access to key sections of the website while maintaining a clean and modern look. -->
   <nav class="navbar navbar-expand-lg navbar-dark py-3">
     <div class="container">
 
       <!-- Website logo / name -->
+       <!-- The navbar-brand class is used to style the website logo or name, which serves as a link to the home page (index.html). In this case, it displays "Frontend Learning Hub" as the brand name of the website. This element is typically placed on the left side of the navbar and helps users identify the website they are visiting. -->
+
       <a class="navbar-brand fw-semibold" href="index.html">
         Frontend Learning Hub
       </a>
 
       <!-- Responsive toggle button (for mobile menu) -->
+       <!-- The navbar-toggler button is used to toggle the visibility of the navigation links on smaller screens (mobile devices). When clicked, it will expand or collapse the navigation menu, allowing users to access the links without taking up too much space on the screen. This is a standard feature in Bootstrap's responsive navbar component, ensuring that the navigation remains accessible and user-friendly across different device sizes. -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#topNav">
         <span class="navbar-toggler-icon"></span>
       </button>
 
       <!-- Navigation links -->
+       <!-- The navigation links are contained within a collapsible div with the ID "topNav". This section includes links to the "Explore" page (app.html) and the "Session Data" page (data.html). Additionally, there is a "Social" dropdown menu that contains a link to the GitHub repository for the project. The navigation links are styled using Bootstrap's navbar classes to ensure they are displayed correctly and are responsive on different screen sizes. -->
       <div class="collapse navbar-collapse" id="topNav">
 
         <!-- Left side navigation -->
+         <!-- The left side of the navbar contains the main navigation links for the website. The "Explore" link directs users to the app.html page where they can explore frontend topics, while the "Session Data" link takes them to the data.html page where they can view session storage data. The "Social" dropdown provides access to external social media or project links, in this case, a link to the GitHub repository for the project. This structure allows users to easily navigate to key sections of the website and access additional resources related to the project. -->
         <ul class="navbar-nav me-auto">
           <li class="nav-item">
             <a class="nav-link" href="pages/app.html">Explore</a>
           </li>
-
+          <!-- The "Explore" link directs users to the app.html page where they can explore frontend topics, while the "Session Data" link takes them to the data.html page where they can view session storage data. The "Social" dropdown provides access to external social media or project links, in this case, a link to the GitHub repository for the project. This structure allows users to easily navigate to key sections of the website and access additional resources related to the project. -->
           <li class="nav-item">
             <a class="nav-link" href="pages/data.html">Session Data</a>
           </li>
-          <!-- Social dropdown added as requested -->
+          <!-- Social dropdown added as requested -->     
+           <!-- The "Social" dropdown contains a link to the GitHub repository for the project, allowing users to easily access the source code and contribute if they wish. This dropdown is implemented using Bootstrap's dropdown component, ensuring it is styled correctly and functions properly across different devices and screen sizes.
+           <!-- The "Social" dropdown contains a link to the GitHub repository for the project, allowing users to easily access the source code and contribute if they wish. This dropdown is implemented using Bootstrap's dropdown component, ensuring it is styled correctly and functions properly across different devices and screen sizes.-->
           <li class="nav-item dropdown">
             <a
               class="nav-link dropdown-toggle"
@@ -56,13 +64,13 @@
               data-bs-toggle="dropdown"
               aria-expanded="false"
             >
-              SOCIAL
+              Social
             </a>
 
             <ul class="dropdown-menu dropdown-menu-end">
               <li>
-                <a class="dropdown-item" href="https://github.com/ehassan256417-afk/project-1-2026-spring" target="_blank" rel="noopener">
-                  GitHub
+                <a class="dropdown-item text-center fs-6 p-0" href="https://github.com/ehassan256417-afk/project-1-2026-spring" target="_blank" rel="noopener">
+                  GitHub <i class="bi bi-github"></i>
                 </a>
               </li>
             </ul>
@@ -82,7 +90,7 @@
   <!-- Bootstrap JS (required for navbar toggle on mobile) -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
-  <!-- Your custom JS (placeholder for social navigation or other scripts) -->
+  <!-- my custom JS (placeholder for social navigation or other scripts) -->
   <script>
     // add any custom scripting here if needed
   </script>
@@ -108,7 +116,7 @@
 
           <!-- Short description of app purpose -->
           <p class="lead">
-            A structured hub that organizes essential frontend topics 
+            <!-- A structured hub that organizes essential frontend topics  -->
             using search, filtering, and sorting features.
           </p>
 
