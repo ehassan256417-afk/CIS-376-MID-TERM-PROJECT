@@ -138,7 +138,7 @@ section {
 
 /* Dark dropdown look */
 .dropdown-menu {
-  background: rgba(15, 20, 35, 0.95);
+  background: rgba(87, 31, 83, 0.95);
   border: 1px solid rgba(255,255,255,0.12);
   border-radius: 12px;
   padding: 10px;
@@ -154,4 +154,9 @@ section {
 .dropdown-item:focus {
   background: rgba(255,255,255,0.10);
   color: #fff;
+}
+
+/* show dropdown menu on hover for desktop navigation */
+.nav-item:hover .dropdown-menu {
+  display: block;
 }
