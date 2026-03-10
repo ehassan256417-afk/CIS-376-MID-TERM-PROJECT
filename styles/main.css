@@ -41,6 +41,7 @@ h1, h2, h3, h4, h5, h6, label {
 .navbar .nav-link {
   color: rgba(248, 249, 250, 0.92);
 }
+
 .navbar .nav-link:hover {
   color: #F8F9FA;
 }
@@ -101,41 +102,6 @@ section {
   padding-bottom: 3rem;
 }
 
-.social {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-}
-
-.social-title {
-  font-size: 0.75rem;
-  font-weight: 600;
-  letter-spacing: 0.1em;
-  color: var(--vp-c-text-2);
-}
-
-.social-list {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.social-list li {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  font-size: 0.875rem;
-  color: var(--vp-c-text-1);
-}
-
-.social-list img {
-  width: 40px;
-  height: 40px;
-}
-
 /* Dark dropdown look */
 .dropdown-menu {
   background: rgba(87, 31, 83, 0.95);
@@ -156,7 +122,7 @@ section {
   color: #fff;
 }
 
-/* show dropdown menu on hover for desktop navigation */
-.nav-item:hover .dropdown-menu {
-  display: block;
+/* Hero subtitle fix (moved from inline CSS) */
+.hero-subtitle {
+  color: rgba(255, 255, 255, 0.75);
 }
